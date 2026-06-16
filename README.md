@@ -5,7 +5,7 @@ This repository contains the Python/Colab code, reproducible analysis pipeline, 
 
 **Uncertainty-aware empirical modelling of metallicity calibration scales in Green Pea galaxies**
 
-The work analyzes the Green Pea galaxy catalogue of Cardamone et al. (2009), with a specific focus on empirical modelling of the catalogue metallicity values, expressed as
+The work analyzes the Green Pea galaxy catalogue of Cardamone et al. (2009), (https://data.galaxyzoo.org/)  with a specific focus on empirical modelling of the catalogue metallicity values, expressed as
 
 \[
 12+\log(\mathrm{O/H}).
@@ -357,46 +357,18 @@ umap-learn optional
 
 ---
 
-## Suggested repository structure
 
-```text
-Green-pea-Galaxy-ML-2025/
-│
-├── README.md
-├── green_pea_revision_colab_v3.py
-├── green_pea_revision_colab_v3_github_clean.ipynb
-├── requirements.txt
-│
-├── data/
-│   └── peas_tbl4.csv
-│
-├── outputs/
-│   └── green_pea_revised_outputs_v3/
-│
-├── manuscript/
-│   └── revised_manuscript.tex
-│
-└── figures/
-    └── selected manuscript figures
-```
-
----
 
 ## License
 
-Please add the appropriate license for the repository. If the code is intended to be openly reusable, a standard choice is:
 
 ```text
 MIT License
 ```
 
-or
 
-```text
-GNU General Public License v3.0
-```
 
-The data should retain the citation and usage conditions of the original source.
+The data https://data.galaxyzoo.org/ should retain the citation and usage conditions of the original source.
 
 ---
 
