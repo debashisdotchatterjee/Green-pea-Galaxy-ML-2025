@@ -64,7 +64,7 @@ If GitHub gives an “Invalid Notebook” error, use the cleaned notebook versio
 
 ## Data
 
-The expected input file is the Green Pea catalogue table, for example:
+The expected input file is the cleaned Green Pea catalogue table, (refer to https://data.galaxyzoo.org/)
 
 ```text
 peas_tbl4.csv
